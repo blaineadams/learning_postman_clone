@@ -1,0 +1,24 @@
+{
+  "name": "postman_clone",
+  "version": "1.0.0",
+  "description": "postman close application",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.18.2",
+    "@codemirror/commands": "^0.18.2",
+    "@codemirror/lang-json": "^0.18.0",
+    "@codemirror/view": "^0.18.16",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "pretty-bytes": "^6.1.0"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
